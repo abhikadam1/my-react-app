@@ -1,6 +1,10 @@
 .student {
-    border: 1px solid black;
-    padding: .5px;
-    margin: 5px;
-    font-family:'Courier New', Courier, monospace;
+  max-width: 500px;
+  min-width: 300px;
+  display: inline-block;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0.5px;
+  margin: 5px;
+  font-family: "Courier New", Courier, monospace;
 }
