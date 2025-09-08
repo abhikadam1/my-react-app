@@ -5,11 +5,17 @@ import CounterComponent from "./CounterComponent";
 import TicTacToe from "./TicTacToe";
 import T1 from "./T1";
 import T2 from "./Tic/T2";
+import ColorPicker from "./colorPicker";
+import ArrayUpdateComponent from "./ArrayUpdateComponent";
+
+
 
 function App() {
   return (
     <>
-      <TicTacToe />
+      <ArrayUpdateComponent />
+      {/* <ColorPicker /> */}
+      {/* <TicTacToe /> */}
       {/* <T1 /> */}
       {/* <T2 /> */}
       {/* <Student name="Abhi" age={30} isStudent={true} />
