@@ -1,5 +1,7 @@
+
 import PropTypes from 'prop-types';
 import styles from './Student.module.css';
+
 function Student(prop){
     return(
         <div className={styles.student}>
@@ -10,16 +12,16 @@ function Student(prop){
     );
 }
 
-Student.PropTypes = {
-    name : PropTypes.string,
-    age : PropTypes.number,
-    isStudent : PropTypes.bool,
+Student.propTypes = {   // ✅ lowercase p
+  name: PropTypes.string,
+  age: PropTypes.number,
+  isStudent: PropTypes.bool,
 };
 
-Student.defaultProps = {
-    name : "Guest",
-    age : 25,
-    isStudent : false
+Student.defaultProps = {  // ✅ works fine here
+  name: "Guest",
+  age: 25,
+  isStudent: false,
 };
 
 export default Student;
